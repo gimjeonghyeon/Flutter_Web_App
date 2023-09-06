@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
               onPressed: (){
                 if(controller != null) {
                   // 웹뷰에서 보여줄 사이트 실행
-                  controller!.loadUrl(homeUrl)
+                  controller!.loadUrl(homeUrl);
                 }
               },
               icon: Icon(
